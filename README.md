@@ -1,6 +1,6 @@
 # OS_2021
 
-:star2: procExecSim 함수 구현의 핵심: 시뮬레이션중 발생할 수 있는 5가지 event들을 검사하는 if문들 안에서 nextState에 현재 running중인 process의 다음 상태를 저장한 후, 마지막에 running process의 상태를 바꾸기 + 여러가지 event들의 동시 발생을 고려하기
+:star: procExecSim 함수 구현의 핵심: 시뮬레이션중 발생할 수 있는 5가지 event들을 검사하는 if문들 안에서 nextState에 현재 running중인 process의 다음 상태를 저장한 후, 마지막에 running process의 상태를 바꾸기 + 여러가지 event들의 동시 발생을 고려하기 :star:
 
 :heavy_exclamation_mark: 디버깅하면서 발견한 오류들 :heavy_exclamation_mark:
 1) idle process는 퀀텀이 만료되지 않아야함.
